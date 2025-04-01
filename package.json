@@ -26,5 +26,9 @@
   },
   "devDependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "publishConfig": {
+    "registry": "http://192.168.18.4:8081/repository/npm/"
+},
+"license": "ISC"
 }
