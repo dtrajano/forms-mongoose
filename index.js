@@ -342,7 +342,7 @@ var bootstrapField = function (name, object) {
     return bodyFieldHtml;
 };
 
-module.exports.defaultLayoutTemplate = jsontemplate.Template(String(fs.readFileSync('template.jsont')));
+module.exports.defaultLayoutTemplate = jsontemplate.Template(String(fs.readFileSync(__dirname + '/template.jsont')));
 module.exports.fields = fields;
 module.exports.widgets = widgets;
 module.exports.validators = validators;
